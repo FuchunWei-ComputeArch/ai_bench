@@ -89,7 +89,8 @@ static const std::vector<std::size_t> kWorkingSets = {
       96ULL << 20,
      128ULL << 20,
      192ULL << 20,
-     256ULL << 20
+     256ULL << 20，
+     512ULL << 20
 };
 
 __device__ __forceinline__
