@@ -1,2 +1,2 @@
 # MemoryLatencyBenchmark
-using point-chasing to measure memory latency of memory hierarchy
+Measuring Memory Hierarchy Latency Using Pointer Chasing
