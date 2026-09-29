@@ -101,7 +101,7 @@ __device__ __forceinline__
 uint32_t load_cacheable_u32(const volatile uint32_t* p){
     uint32_t v;
 	asm volatile(
-        "ld.global.ca.u64 %0, [%1];"
+        "ld.global.ca.u32 %0, [%1];"
         : "=r"(v)
         : "l"(p)
         : "memory"
